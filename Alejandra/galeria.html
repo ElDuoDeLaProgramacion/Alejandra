@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c96e1971;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            align-content: center;
+        }
+        header {
+            background-color: #c99a00;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+            align-items: center ;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            
+        }
+        .image-gallery p {
+            color: #1100ff;
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+           
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            
+         
+           padding-right: 30px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+            
+            
+        }
+
+        footer {
+            background-color: #c99a00;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis mejores dias</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Alejandra/Imagenes/Miniso.PNG" alt="Imagen 1">
+                    <p>El ultimo día de ver a mi amiga , porque se iba  de viaje</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Alejandra/Imagenes/Lagos.png" alt="Imagen 2">
+                    <p>El día que fuimos a los lagos a los trampolines y luego a piscina</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Alejandra/Imagenes/Fiesta.png" alt="Imagen 3">
+                    <p>Fiesta de 15 de una amiga en un lugar increíble.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Alejandra/Imagenes/SanPedro.png" alt="Imagen 3">
+                    <p>Desfile de San Pedro</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Alejandra/Imagenes/Piscina.png" alt="Imagen 3">
+                    <p>Piscina en familia</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Alejandra Barreto</p>
+        
+    </footer>
+</body>
+</html>
